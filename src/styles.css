@@ -1,3 +1,82 @@
 body {
   font-family: sans-serif;
 }
+
+button {
+  height: 40px;
+  min-width: 80px;
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+  border: 1px solid #555;
+  background: #fff;
+  color: #ffad3a;
+  font-weight: bold;
+  font-size: 15px;
+  border: 2px solid #ffad3a;
+  transition: 0.2s;
+  cursor: pointer;
+}
+button:hover {
+  color: #fff;
+  background: #ffad3a;
+}
+button:nth-child(n + 2) {
+  margin-left: 4px;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  margin-right: 8px;
+}
+input {
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid #555;
+  outline: none;
+  padding: 10px;
+}
+.title {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-area {
+  padding: 10px;
+  border-radius: 10px;
+  background: rgb(247, 247, 247);
+}
+.list-row {
+  display: flex;
+}
+.list-row:nth-child(n + 2) {
+  margin-top: 8px;
+}
+.imcomplete-area,
+.complete-area {
+  box-sizing: border-box;
+  padding: 16px 20px;
+  border-radius: 20px;
+  margin-top: 8px;
+}
+.imcomplete-area li,
+.complete-area li {
+  min-width: 200px;
+  padding: 5px 8px;
+  border-radius: 4px;
+  background: #fff;
+}
+.imcomplete-area {
+  background: #ffece6;
+}
+.complete-area {
+  background: #c7e4ff;
+}
